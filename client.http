@@ -1,0 +1,20 @@
+@route=http://localhost:3000
+
+
+### User
+
+### Get One
+GET {{route}}/user
+
+### Get One by id
+GET {{route}}/user/fsjfsçfs
+
+### Create User
+POST {{route}}/user
+Content-Type:application/json
+
+{
+  "id": "this is id",
+  "name": "this is User",
+  "email": "this is email"
+}
